@@ -1,45 +1,222 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang=en dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta data-n-head="true" content="width=device-width,initial-scale=1" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta property="og:site_name" content="TSG CTF">
+    <meta property="og:title" content="TSG CTF">
+    <meta property="og:description" content="TSG CTF is on-line CTF organized by TSG, the official computer society of The University of Tokyo">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ctf.tsg.ne.jp">
+    <meta property="og:image" content="https://ctf.tsg.ne.jp/ogp/ogp.jpg">
+    <meta property="fb:app_id" content="" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://ctf.tsg.ne.jp">
+    <meta name="twitter:image" content="https://ctf.tsg.ne.jp/ogp/ogp.jpg">
+
     <title>TSG CTF</title>
-    <style media="screen">
-      html {
-        background: linear-gradient(0.1turn, #212121, #05293a);
-        color: white;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: monospace;
-      }
+    <meta name="keywords" content="TSG CTF on-line Tokyo univertsity security">
+    <meta name="description" content="TSG CTF is on-line CTF organized by TSG, the official computer society of The University of Tokyo">
+    <meta name="author" content="TSG">
+    <link rel="canonical" href="https://ctf.tsg.ne.jp">
 
-      body {
-        text-align: center;
-      }
-
-      h1 {
-        font-size: 20vmin;
-        line-height: 1em;
-        margin: 0;
-      }
-
-      p {
-        font-size: 5vmin;
-        line-height: 1em;
-        margin: 0;
-      }
-
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:600" rel="stylesheet">
+    <script src="wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </head>
-  <body>
-    <h1><a href="https://tsg.ne.jp/">TSG</a> CTF</h1>
-    <p>May 4 07:00 (UTC) - May 5 07:00 (UTC)</p>
+  <body id="Body">
+    <section id="Top">
+      <div class="Top_Container">
+        <div class="wow fadeInUp">
+          <h1>
+            <img class="Top_CTFLogo" src="images/tsgctf_logo.svg" alt="TSG CTF">
+          </h1>
+        </div>
+        <div class="wow fadeInUp" data-wow-delay=".5s">
+          <h3 class="Top_StartTime">2019.05.04 Sat. 07:00 UTC</h3>
+          <img class="Top_BottomArrow" src="images/bottom_arrow.svg" alt="">
+          <h3 class="Top_EndTime">2019.05.05 Sun. 07:00 UTC</h3>
+          <a class="Common_Register Only_Mobile" href="">REGISTER</a>
+          <h5 class="Top_OrganizedBy">organized by</h5>
+          <h4>
+            <a class="Top_Organizer" href="https://tsg.ne.jp/">Theoretical Science Group(TSG)</a>
+          </h4>
+          <h5 class="Top_SponsoredBy">sponsored by</h5>
+          <a href="https://flatt.tech">
+            <img class="Common_FlattLogo" src="images/flatt_security_color.svg" alt="Flatt SECURITY">
+          </a>
+          <a class="Common_Register Only_Desktop" href="">REGISTER</a>
+        </div>
+      </div>
+      <div class="Top_ScrollArrowWrapper">
+        <span class="Top_ScrollText">SCROLL</span>
+        <img src="images/scroll_arrow.svg" alt="">
+      </div>
+    </section>
+
+    <section id="About">
+      <div class="Common_Container">
+        <h2 class="Common_Heading">ABOUT</h2>
+        <p class="wow fadeInUp">
+          TSG is the official computer society of The University of Tokyo, and also the name of the CTF team organized by its members.
+          <br>
+          Acquiring chance of organizing two domestic on-line CTFs last year, we now decided to host TSG CTF open for everyone. We promise you elegant and amusing chals for fun!
+          <br>
+          As a bonus, the greatest team will be awarded a prize with $$$ thanks to Flatt, Inc. Don’t miss it!
+        </p>
+        <div class="wow fadeInUp">
+          <h3>Staff TSG Members</h3>
+          <ul class="About_Staffs">
+            <li class="About_Staff">
+              <a href="https://twitter.com/hakatashi">
+                <img class="About_StaffImage" src="images/staff/hakatashi.png" alt="">
+                <h5 class="About_StaffName">hakatashi</h5>
+              </a>
+            </li>
+            <li class="About_Staff">
+              <a href="https://twitter.com/kcz146">
+                <img class="About_StaffImage" src="images/staff/kcz146.png" alt="">
+                <h5 class="About_StaffName">kcz146</h5>
+              </a>
+            </li>
+            <li class="About_Staff">
+              <a href="https://twitter.com/lmt_swallow">
+                <img class="About_StaffImage" src="images/staff/lmt_swallow.png" alt="">
+                <h5 class="About_StaffName">lmt_swallow</h5>
+              </a>
+            </li>
+            <li class="About_Staff">
+              <a href="https://twitter.com/taiyoslime">
+                <img class="About_StaffImage" src="images/staff/taiyoslime.png" alt="">
+                <h5 class="About_StaffName">taiyoslime</h5>
+              </a>
+            </li>
+            <li class="About_Staff">
+              <a href="https://twitter.com/satos___jp">
+                <img class="About_StaffImage" src="images/staff/satos__jp.png" alt="">
+                <h5 class="About_StaffName">satos__jp</h5>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="Link">
+      <div class="Common_Container">
+        <h2 class="Common_Heading">LINK</h2>
+        <ul class="Link_List wow fadeInUp">
+          <li class="Link_ListItem">
+            <a href="#">
+              <div class="Link_ListItemImageWrapper">
+                <img class="Link_ListItemImage" src="images/link/scoreboard.png" alt="">
+              </div>
+              <h5>Scoreboard</h5>
+            </a>
+          </li>
+          <li class="Link_ListItem">
+            <a href="#">
+              <div class="Link_ListItemImageWrapper">
+                <img class="Link_ListItemImage" src="images/link/discord.png" alt="">
+              </div>
+              <h5>DISCORD</h5>
+            </a>
+          </li>
+          <li class="Link_ListItem">
+            <a href="https://twitter.com/tsg_ut">
+              <div class="Link_ListItemImageWrapper">
+                <img class="Link_ListItemImage" src="images/link/twitter_color.png" alt="">
+              </div>
+              <h5>Official<br>Twitter</h5>
+            </a>
+          </li>
+          <li class="Link_ListItem">
+            <a href="https://twitter.com/search?q=%23tsg_ctf">
+              <div class="Link_ListItemImageWrapper">
+                <img class="Link_ListItemImage" src="images/link/twitter_white.png" alt="">
+              </div>
+              <h5>#tsg_ctf<br>on Twitter</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="Prize">
+      <div class="Common_Container">
+        <h2 class="Common_Heading">PRIZE</h2>
+        <div class="Prize_First wow fadeInUp">
+          <img class="Prize_CupImage" src="images/prize/first.svg" alt="">
+          <h1>513.37 USD</h1>
+        </div>
+        <div class="Prize_SecondThirdWrapper wow fadeInUp">
+          <div class="Prize_SecondThird">
+            <img class="Prize_CupImage" src="images/prize/second.svg" alt="">
+            <h3>213.37 USD</h3>
+          </div>
+          <div class="Prize_SecondThird">
+            <img class="Prize_CupImage" src="images/prize/third.svg" alt="">
+            <h3>113.37 USD</h3>
+          </div>
+        </div>
+        <p>The prize reward is paid in Bitcoin with conversion according to the exchange rate on May 4, 2019.</p>
+        <a class="Common_Register" href="">REGISTER</a>
+      </div>
+    </section>
+
+    <section id="Regulation">
+      <div class="Common_Container">
+        <h2 class="Common_Heading">REGULATION</h2>
+        <p class="wow fadeInUp">
+          Don’t share flags or hints, or you’ll be banned.
+          <br>
+          Don’t attack nor DoS against our infrastructure, or you’ll be banned.
+          <br>
+          Don’t do automated scannig. It will be considered DoS.
+          <br>
+          The flag format is <span class="Common_Code">TSGCTF{blahblah}</span>, unless otherwise specified.
+        </p>
+        <div class="Regulation_Contact wow fadeInUp">
+          <h3 class="Regulation_SubHeading">Contact</h3>
+          <p>
+            <b>Email:</b><a class="Regulation_ContactLink" href="mailto:info@tsg.ne.jp">info@tsg.ne.jp</a>
+            <br>
+            <b>Twitter:</b><a class="Regulation_ContactLink" href="https://twitter.com/tsg_ut">@tsg_ut</a>
+          </p>
+        </div>
+        <a class="Common_Register" href="">REGISTER</a>
+      </div>
+    </section>
+
+    <section id="Sponsor">
+      <div class="Common_Container">
+        <h2 class="Common_Heading">SPONSOR</h2>
+        <div class="wow fadeInUp">
+          <h5 class="Top_SponsoredBy">sponsored by</h5>
+          <a class="Sponsor_FlattLogo" href="https://flatt.tech">
+            <img class="Common_FlattLogo" src="images/flatt_security_color.svg" alt="Flatt SECURITY">
+          </a>
+        </div>
+        <div class="wow fadeInUp">
+          <img class="Sponsor_FlattImage" src="images/flatt_image.jpg" alt="">
+          <p>
+            Flatt SECURITY is the cyber security assesment service provided by Flatt, Inc.
+            <br>
+            And Flatt is the company for cyber security based in Hongo, Tokyo, nearby The University of Tokyo.
+            <br>
+            Flatt is hiring engineers. Please contact to support@flatt.tech or to form in official web site.
+          </p>
+          <a class="Sponsor_LinkToFlatt" href="https://flatt.tech">Official Web</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
