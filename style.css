@@ -217,6 +217,10 @@ li {
   width: 30%;
 }
 
+.Link_ListItem.Disabled {
+  opacity: 0.3;
+}
+
 @media(min-width: 1024px) {
   .Link_ListItem {
     margin: 5%;
