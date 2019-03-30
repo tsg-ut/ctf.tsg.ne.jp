@@ -63,7 +63,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:not(.Disabled):hover {
   opacity: .8;
   transition: .3s;
 }
@@ -347,6 +347,12 @@ li {
   margin: 32px auto 0;
   max-width: 360px;
   text-decoration: none;
+}
+
+.Common_Register.Disabled {
+  background-color: dimgray;
+  font-size: 1.2rem;
+  opacity: 0.8;
 }
 
 @media (min-width: 768px) {
