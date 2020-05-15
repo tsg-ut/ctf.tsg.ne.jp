@@ -176,6 +176,10 @@ li {
   margin-bottom: 8px;
 }
 
+.About_Description a {
+  text-decoration: underline;
+}
+
 .About_Staffs {
   display: flex;
   flex-wrap: wrap;
