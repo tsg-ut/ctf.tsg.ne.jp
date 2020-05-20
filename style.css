@@ -185,13 +185,13 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   margin: 32px auto;
-  max-width: 500px;
+  max-width: 700px;
   width: 100%;
 }
 
 .About_Staff {
-  padding: 0 5%;
-  width: 33%;
+  padding: 0 4%;
+  width: 25%;
 }
 
 @media (max-width: 350px) {
