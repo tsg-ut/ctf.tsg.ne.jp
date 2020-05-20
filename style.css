@@ -59,6 +59,10 @@ p {
   text-align: justify;
 }
 
+p > a {
+  text-decoration: underline;
+}
+
 a {
   text-decoration: none;
 }
@@ -174,10 +178,6 @@ li {
   display: block;
   font-size: 1.1rem;
   margin-bottom: 8px;
-}
-
-.About_Description a {
-  text-decoration: underline;
 }
 
 .About_Staffs {
