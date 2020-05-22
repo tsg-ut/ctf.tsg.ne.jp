@@ -59,6 +59,10 @@ p {
   text-align: justify;
 }
 
+p > a {
+  text-decoration: underline;
+}
+
 a {
   text-decoration: none;
 }
@@ -181,13 +185,13 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   margin: 32px auto;
-  max-width: 500px;
+  max-width: 700px;
   width: 100%;
 }
 
 .About_Staff {
-  padding: 0 5%;
-  width: 33%;
+  padding: 0 4%;
+  width: 25%;
 }
 
 @media (max-width: 350px) {
@@ -299,8 +303,7 @@ li {
 }
 
 .Sponsor_FlattImage {
-  margin: 48px auto 32px;
-  max-width: 500px;
+  margin: 16px auto 32px;
   width: 100%;
 }
 
