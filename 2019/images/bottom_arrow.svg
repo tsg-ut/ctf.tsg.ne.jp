@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="12px" viewBox="0 0 22 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>bottom_arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lp" transform="translate(-177.000000, -316.000000)" fill="#FFFFFF">
+            <g id="date" transform="translate(75.000000, 278.000000)">
+                <path d="M113.707107,38.7071068 L123.292893,48.2928932 C123.683418,48.6834175 123.683418,49.3165825 123.292893,49.7071068 C123.105357,49.8946432 122.851003,50 122.585786,50 L103.414214,50 C102.861929,50 102.414214,49.5522847 102.414214,49 C102.414214,48.7347835 102.51957,48.4804296 102.707107,48.2928932 L112.292893,38.7071068 C112.683418,38.3165825 113.316582,38.3165825 113.707107,38.7071068 Z" id="bottom_arrow" transform="translate(113.000000, 44.000000) rotate(180.000000) translate(-113.000000, -44.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
