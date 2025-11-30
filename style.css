@@ -26,7 +26,11 @@ section {
   padding: 60px 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: bold;
   line-height: 1.6;
   margin: 0 auto;
@@ -59,7 +63,7 @@ p {
   text-align: justify;
 }
 
-p > a {
+p>a {
   text-decoration: underline;
 }
 
@@ -89,7 +93,7 @@ li {
 }
 
 #Body::before {
-  background-image: url('images/main_bg_2024.jpg');
+  background-image: url('images/main_bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
