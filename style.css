@@ -76,6 +76,18 @@ a:not(.Disabled):hover {
   transition: .3s;
 }
 
+#Finals ul {
+  font-size: 1.2rem;
+  padding-left: 0;
+  text-align: left;
+}
+
+#Finals li {
+  margin-left: 24px;
+  text-align: left;
+  list-style: inside;
+}
+
 ul {
   padding-left: 0;
 }
